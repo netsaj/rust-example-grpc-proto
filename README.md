@@ -16,3 +16,7 @@ $ protoc --rust_out=compiled/rust/ proto/example.proto
 ```bash
 $ protoc --rust-grpc_out=compiled/rust/ proto/example.proto
 ```
+
+## Authors
+
+Fabio Moreno <fabiomoreno@outlook.com>
