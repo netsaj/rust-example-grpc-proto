@@ -1,6 +1,9 @@
-extern crate protobuf;
-extern crate grpc;
+pub extern crate futures;
+pub extern crate futures_cpupool;
+pub extern crate protobuf;
+pub extern crate grpc;
+pub extern crate tls_api;
 #[path = "../compiled/rust/example.rs"] // Here
-mod example;
+pub mod example;
 #[path = "../compiled/rust/example_grpc.rs"] // Here
-mod example_grpc;
+pub mod example_grpc;
